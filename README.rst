@@ -22,26 +22,9 @@ along with MathematicaSVM. If not, see <http://www.gnu.org/licenses/>.
 
 About
 -----
-Nowadays computers can be trained to perform a variety of tasks, 
-traditionally associated with intelligence. Recognizing people, 
-classifying webpages, recognizing human speech, performing online 
-trading, are just a few examples of tasks that can be performed by 
-machines. 
-Behind this very diverse set of abilities there is a branch of computer 
-science and artificial intelligence, called machine learning, which 
-deals with the problem of constructing and studying systems able to 
-learn from data. 
-In a supervised machine learning setting, problems are directly 
-specified by sets of input data, with associated desired outputs. The 
-goal of a learning machine is then to learn a mathematical model able to
-reproduce the desired output on the training data, while preserving 
-generalization abilities on unseen data. This approach results to be 
-very useful when the functional dependency of the output w.r.t. the 
-input is not known, or is too complex to be modeled exactly.
-
-One of the most successful machine learning tools that is widely used to
-solve classification and regression problems is called 
-Support Vector Machine (SVM) [1].
+One of the most successful machine learning tools that are widely used 
+to solve classification and regression problems are 
+Support Vector Machines (SVM) [1].
 
 The goal of this notebook is to present the very basic theory of linear 
 classifiers, max-margin classifiers and Support Vector Machines and to 
