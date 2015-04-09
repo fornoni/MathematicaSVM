@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[    863573,      18492]
-NotebookOptionsPosition[    843560,      17926]
-NotebookOutlinePosition[    848478,      18066]
-CellTagsIndexPosition[    847564,      18038]
+NotebookDataLength[    863606,      18493]
+NotebookOptionsPosition[    843593,      17927]
+NotebookOutlinePosition[    848511,      18067]
+CellTagsIndexPosition[    847597,      18039]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -85,8 +85,9 @@ Cell["A hands-on introduction to Support Vector Machines", "Title",
    3.600678199962726*^9}, {3.600678268573207*^9, 3.600678294242147*^9}, 
    3.601298617085761*^9, {3.6074354021223297`*^9, 3.607435406715845*^9}}],
 
-Cell[" This file is part of the MathSVM Software", "Text",
- CellChangeTimes->{{3.6375914910152884`*^9, 3.637591493596785*^9}},
+Cell[" This file is part of the MathematicaSVM Software", "Text",
+ CellChangeTimes->{{3.6375914910152884`*^9, 3.637591493596785*^9}, 
+   3.637593842609106*^9},
  TextAlignment->Center],
 
 Cell["Feb 3, 2014", "SmallText",
@@ -17962,105 +17963,105 @@ StyleDefinitions->Notebook[{
 (*CellTagsOutline
 CellTagsIndex->{
  "intro"->{
-  Cell[16598, 370, 315, 8, 135, "Section",
+  Cell[16631, 371, 315, 8, 135, "Section",
    CellTags->"intro"]},
  "linear_classifiers"->{
-  Cell[24569, 545, 571, 12, 135, "Section",
+  Cell[24602, 546, 571, 12, 135, "Section",
    CellTags->"linear_classifiers"]},
  "fig_geometry"->{
-  Cell[35960, 846, 71955, 1189, 363, "Text",
+  Cell[35993, 847, 71955, 1189, 363, "Text",
    CellTags->"fig_geometry"]},
  "sec:max_margin"->{
-  Cell[120006, 2347, 578, 12, 135, "Section",
+  Cell[120039, 2348, 578, 12, 135, "Section",
    CellTags->"sec:max_margin"]},
  "margin_bound"->{
-  Cell[120609, 2363, 151, 2, 67, "Subsection",
+  Cell[120642, 2364, 151, 2, 67, "Subsection",
    CellTags->"margin_bound"]},
  "theorem1"->{
-  Cell[125814, 2511, 1772, 53, 131, "Text",
+  Cell[125847, 2512, 1772, 53, 131, "Text",
    CellTags->"theorem1"]},
  "eq:max_margin_hard"->{
-  Cell[146760, 3104, 1158, 39, 79, "DisplayFormulaNumbered",
+  Cell[146793, 3105, 1158, 39, 79, "DisplayFormulaNumbered",
    CellTags->"eq:max_margin_hard"]},
  "eq:1norm_svm"->{
-  Cell[190904, 3975, 1705, 48, 163, "DisplayFormulaNumbered",
+  Cell[190937, 3976, 1705, 48, 163, "DisplayFormulaNumbered",
    CellTags->"eq:1norm_svm"]},
  "subsec:hinge_loss"->{
-  Cell[217184, 4582, 207, 3, 67, "Subsection",
+  Cell[217217, 4583, 207, 3, 67, "Subsection",
    CellTags->"subsec:hinge_loss"]},
  "sec:svm"->{
-  Cell[271947, 5959, 467, 10, 135, "Section",
+  Cell[271980, 5960, 467, 10, 135, "Section",
    CellTags->"sec:svm"]},
  "primal_problem"->{
-  Cell[274806, 6019, 1226, 38, 116, "DisplayFormulaNumbered",
+  Cell[274839, 6020, 1226, 38, 116, "DisplayFormulaNumbered",
    CellTags->"primal_problem"]},
  "eq:dual_problem"->{
-  Cell[279868, 6179, 844, 26, 79, "DisplayFormulaNumbered",
+  Cell[279901, 6180, 844, 26, 79, "DisplayFormulaNumbered",
    CellTags->"eq:dual_problem"]},
  "eq:kkt"->{
-  Cell[287289, 6400, 2242, 75, 236, "DisplayFormulaNumbered",
+  Cell[287322, 6401, 2242, 75, 236, "DisplayFormulaNumbered",
    CellTags->"eq:kkt"]},
  "eq:hard_margin_svm_L"->{
-  Cell[293112, 6565, 1491, 54, 84, "DisplayFormula",
+  Cell[293145, 6566, 1491, 54, 84, "DisplayFormula",
    CellTags->"eq:hard_margin_svm_L"]},
  "eq:hard_margin_svm_w"->{
-  Cell[298666, 6757, 878, 25, 172, "DisplayFormulaNumbered",
+  Cell[298699, 6758, 878, 25, 172, "DisplayFormulaNumbered",
    CellTags->"eq:hard_margin_svm_w"]},
  "eq:hard_margin_svm_Dual"->{
-  Cell[312080, 7163, 1511, 54, 136, "DisplayFormulaNumbered",
+  Cell[312113, 7164, 1511, 54, 136, "DisplayFormulaNumbered",
    CellTags->"eq:hard_margin_svm_Dual"]},
  "eq:soft_margin_svm_L"->{
-  Cell[421519, 9285, 2038, 72, 84, "DisplayFormulaNumbered",
+  Cell[421552, 9286, 2038, 72, 84, "DisplayFormulaNumbered",
    CellTags->"eq:soft_margin_svm_L"]},
  "eq:soft_margin_svm_w"->{
-  Cell[428100, 9509, 1194, 32, 214, "DisplayFormulaNumbered",
+  Cell[428133, 9510, 1194, 32, 214, "DisplayFormulaNumbered",
    CellTags->"eq:soft_margin_svm_w"]},
  "eq:soft_margin_svm_Dual"->{
-  Cell[438627, 9858, 1376, 47, 136, "DisplayFormulaNumbered",
+  Cell[438660, 9859, 1376, 47, 136, "DisplayFormulaNumbered",
    CellTags->"eq:soft_margin_svm_Dual"]},
  "eq:svm_w"->{
-  Cell[484086, 10998, 971, 30, 229, "DisplayFormulaNumbered",
+  Cell[484119, 10999, 971, 30, 229, "DisplayFormulaNumbered",
    CellTags->"eq:svm_w"]},
  "eq:2norm_svm_Dual"->{
-  Cell[500647, 11500, 1336, 48, 136, "DisplayFormulaNumbered",
+  Cell[500680, 11501, 1336, 48, 136, "DisplayFormulaNumbered",
    CellTags->"eq:2norm_svm_Dual"]},
  "sec:kernel_svm"->{
-  Cell[531851, 12241, 582, 12, 135, "Section",
+  Cell[531884, 12242, 582, 12, 135, "Section",
    CellTags->"sec:kernel_svm"]},
  "conclusions"->{
-  Cell[840335, 17851, 509, 11, 135, "Section",
+  Cell[840368, 17852, 509, 11, 135, "Section",
    CellTags->"conclusions"]},
  "00004F53"->{
-  Cell[843173, 17913, 347, 8, 39, "Reference",
+  Cell[843206, 17914, 347, 8, 39, "Reference",
    CellTags->"00004F53"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"intro", 844949, 17963},
- {"linear_classifiers", 845041, 17966},
- {"fig_geometry", 845141, 17969},
- {"sec:max_margin", 845238, 17972},
- {"margin_bound", 845336, 17975},
- {"theorem1", 845429, 17978},
- {"eq:max_margin_hard", 845525, 17981},
- {"eq:1norm_svm", 845642, 17984},
- {"subsec:hinge_loss", 845759, 17987},
- {"sec:svm", 845856, 17990},
- {"primal_problem", 845949, 17993},
- {"eq:dual_problem", 846066, 17996},
- {"eq:kkt", 846173, 17999},
- {"eq:hard_margin_svm_L", 846287, 18002},
- {"eq:hard_margin_svm_w", 846406, 18005},
- {"eq:hard_margin_svm_Dual", 846536, 18008},
- {"eq:soft_margin_svm_L", 846667, 18011},
- {"eq:soft_margin_svm_w", 846794, 18014},
- {"eq:soft_margin_svm_Dual", 846925, 18017},
- {"eq:svm_w", 847044, 18020},
- {"eq:2norm_svm_Dual", 847157, 18023},
- {"sec:kernel_svm", 847277, 18026},
- {"conclusions", 847375, 18029},
- {"00004F53", 847467, 18032}
+ {"intro", 844982, 17964},
+ {"linear_classifiers", 845074, 17967},
+ {"fig_geometry", 845174, 17970},
+ {"sec:max_margin", 845271, 17973},
+ {"margin_bound", 845369, 17976},
+ {"theorem1", 845462, 17979},
+ {"eq:max_margin_hard", 845558, 17982},
+ {"eq:1norm_svm", 845675, 17985},
+ {"subsec:hinge_loss", 845792, 17988},
+ {"sec:svm", 845889, 17991},
+ {"primal_problem", 845982, 17994},
+ {"eq:dual_problem", 846099, 17997},
+ {"eq:kkt", 846206, 18000},
+ {"eq:hard_margin_svm_L", 846320, 18003},
+ {"eq:hard_margin_svm_w", 846439, 18006},
+ {"eq:hard_margin_svm_Dual", 846569, 18009},
+ {"eq:soft_margin_svm_L", 846700, 18012},
+ {"eq:soft_margin_svm_w", 846827, 18015},
+ {"eq:soft_margin_svm_Dual", 846958, 18018},
+ {"eq:svm_w", 847077, 18021},
+ {"eq:2norm_svm_Dual", 847190, 18024},
+ {"sec:kernel_svm", 847310, 18027},
+ {"conclusions", 847408, 18030},
+ {"00004F53", 847500, 18033}
  }
 *)
 (*NotebookFileOutline
@@ -18075,421 +18076,421 @@ Cell[1891, 55, 971, 15, 19, "Print",
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2899, 75, 806, 10, 124, "Title"],
-Cell[3708, 87, 150, 2, 52, "Text"],
-Cell[3861, 91, 444, 6, 38, "SmallText"],
+Cell[3708, 87, 183, 3, 52, "Text"],
+Cell[3894, 92, 444, 6, 38, "SmallText"],
 Cell[CellGroupData[{
-Cell[4330, 101, 102, 1, 45, "Subsubtitle"],
+Cell[4363, 102, 102, 1, 45, "Subsubtitle"],
 Cell[CellGroupData[{
-Cell[4457, 106, 98, 1, 67, "Subsection"],
-Cell[4558, 109, 12003, 256, 732, "Text"]
+Cell[4490, 107, 98, 1, 67, "Subsection"],
+Cell[4591, 110, 12003, 256, 732, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16598, 370, 315, 8, 135, "Section",
+Cell[16631, 371, 315, 8, 135, "Section",
  CellTags->"intro"],
-Cell[16916, 380, 7616, 160, 949, "Text"]
+Cell[16949, 381, 7616, 160, 949, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24569, 545, 571, 12, 135, "Section",
+Cell[24602, 546, 571, 12, 135, "Section",
  CellTags->"linear_classifiers"],
-Cell[25143, 559, 1816, 45, 53, "Text"],
+Cell[25176, 560, 1816, 45, 53, "Text"],
 Cell[CellGroupData[{
-Cell[26984, 608, 536, 16, 56, "Item"],
-Cell[27523, 626, 228, 6, 53, "Item"],
-Cell[27754, 634, 291, 6, 53, "Item"]
+Cell[27017, 609, 536, 16, 56, "Item"],
+Cell[27556, 627, 228, 6, 53, "Item"],
+Cell[27787, 635, 291, 6, 53, "Item"]
 }, Open  ]],
-Cell[28060, 643, 1466, 29, 89, "Text"],
-Cell[29529, 674, 1011, 29, 41, "DisplayFormulaNumbered"],
-Cell[30543, 705, 1831, 50, 57, "Text"],
-Cell[32377, 757, 690, 20, 41, "DisplayFormulaNumbered"],
-Cell[33070, 779, 2887, 65, 241, "Text"],
-Cell[35960, 846, 71955, 1189, 363, "Text",
+Cell[28093, 644, 1466, 29, 89, "Text"],
+Cell[29562, 675, 1011, 29, 41, "DisplayFormulaNumbered"],
+Cell[30576, 706, 1831, 50, 57, "Text"],
+Cell[32410, 758, 690, 20, 41, "DisplayFormulaNumbered"],
+Cell[33103, 780, 2887, 65, 241, "Text"],
+Cell[35993, 847, 71955, 1189, 363, "Text",
  CellTags->"fig_geometry"],
-Cell[107918, 2037, 1103, 28, 128, "Text"],
-Cell[109024, 2067, 865, 22, 41, "DisplayFormulaNumbered"],
-Cell[109892, 2091, 2411, 69, 163, "Text"],
-Cell[112306, 2162, 746, 22, 41, "DisplayFormula"],
-Cell[113055, 2186, 2574, 56, 311, "Text"],
+Cell[107951, 2038, 1103, 28, 128, "Text"],
+Cell[109057, 2068, 865, 22, 41, "DisplayFormulaNumbered"],
+Cell[109925, 2092, 2411, 69, 163, "Text"],
+Cell[112339, 2163, 746, 22, 41, "DisplayFormula"],
+Cell[113088, 2187, 2574, 56, 311, "Text"],
 Cell[CellGroupData[{
-Cell[115654, 2246, 1433, 34, 19, "Input",
+Cell[115687, 2247, 1433, 34, 19, "Input",
  CellOpen->False],
-Cell[117090, 2282, 2755, 55, 470, "Output"]
+Cell[117123, 2283, 2755, 55, 470, "Output"]
 }, Open  ]],
-Cell[119860, 2340, 109, 2, 52, "Text"]
+Cell[119893, 2341, 109, 2, 52, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[120006, 2347, 578, 12, 135, "Section",
+Cell[120039, 2348, 578, 12, 135, "Section",
  CellTags->"sec:max_margin"],
 Cell[CellGroupData[{
-Cell[120609, 2363, 151, 2, 67, "Subsection",
+Cell[120642, 2364, 151, 2, 67, "Subsection",
  CellTags->"margin_bound"],
-Cell[120763, 2367, 1948, 49, 89, "Text"],
-Cell[122714, 2418, 560, 15, 41, "DisplayFormulaNumbered"],
-Cell[123277, 2435, 1615, 45, 89, "Text"],
-Cell[124895, 2482, 535, 16, 43, "DisplayFormulaNumbered"],
-Cell[125433, 2500, 378, 9, 52, "Text"],
-Cell[125814, 2511, 1772, 53, 131, "Text",
+Cell[120796, 2368, 1948, 49, 89, "Text"],
+Cell[122747, 2419, 560, 15, 41, "DisplayFormulaNumbered"],
+Cell[123310, 2436, 1615, 45, 89, "Text"],
+Cell[124928, 2483, 535, 16, 43, "DisplayFormulaNumbered"],
+Cell[125466, 2501, 378, 9, 52, "Text"],
+Cell[125847, 2512, 1772, 53, 131, "Text",
  CellTags->"theorem1"],
-Cell[127589, 2566, 880, 26, 69, "DisplayFormulaNumbered"],
-Cell[128472, 2594, 2264, 54, 304, "Text"]
+Cell[127622, 2567, 880, 26, 69, "DisplayFormulaNumbered"],
+Cell[128505, 2595, 2264, 54, 304, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[130773, 2653, 179, 2, 67, "Subsection"],
-Cell[130955, 2657, 2382, 78, 164, "Text"],
-Cell[133340, 2737, 1291, 36, 65, "DisplayFormula"],
-Cell[134634, 2775, 1397, 28, 126, "Text"],
-Cell[136034, 2805, 998, 34, 65, "DisplayFormula"],
-Cell[137035, 2841, 1363, 20, 89, "Text"],
-Cell[138401, 2863, 997, 32, 65, "DisplayFormula"],
-Cell[139401, 2897, 3228, 82, 245, "Text"],
-Cell[142632, 2981, 1148, 37, 106, "DisplayFormula"],
-Cell[143783, 3020, 2974, 82, 109, "Text"],
-Cell[146760, 3104, 1158, 39, 79, "DisplayFormulaNumbered",
+Cell[130806, 2654, 179, 2, 67, "Subsection"],
+Cell[130988, 2658, 2382, 78, 164, "Text"],
+Cell[133373, 2738, 1291, 36, 65, "DisplayFormula"],
+Cell[134667, 2776, 1397, 28, 126, "Text"],
+Cell[136067, 2806, 998, 34, 65, "DisplayFormula"],
+Cell[137068, 2842, 1363, 20, 89, "Text"],
+Cell[138434, 2864, 997, 32, 65, "DisplayFormula"],
+Cell[139434, 2898, 3228, 82, 245, "Text"],
+Cell[142665, 2982, 1148, 37, 106, "DisplayFormula"],
+Cell[143816, 3021, 2974, 82, 109, "Text"],
+Cell[146793, 3105, 1158, 39, 79, "DisplayFormulaNumbered",
  CellTags->"eq:max_margin_hard"],
-Cell[147921, 3145, 4664, 111, 218, "Text"],
+Cell[147954, 3146, 4664, 111, 218, "Text"],
 Cell[CellGroupData[{
-Cell[152610, 3260, 2096, 31, 50, "Subsubsection"],
-Cell[154709, 3293, 2428, 39, 126, "Text"],
-Cell[157140, 3334, 2462, 69, 430, "Code",
+Cell[152643, 3261, 2096, 31, 50, "Subsubsection"],
+Cell[154742, 3294, 2428, 39, 126, "Text"],
+Cell[157173, 3335, 2462, 69, 430, "Code",
  Evaluatable->False],
-Cell[159605, 3405, 1049, 18, 237, "Text"],
+Cell[159638, 3406, 1049, 18, 237, "Text"],
 Cell[CellGroupData[{
-Cell[160679, 3427, 468, 8, 60, "Input",
+Cell[160712, 3428, 468, 8, 60, "Input",
  InitializationCell->True],
-Cell[161150, 3437, 5440, 102, 435, "Output"]
+Cell[161183, 3438, 5440, 102, 435, "Output"]
 }, Open  ]],
-Cell[166605, 3542, 1910, 31, 348, "Text"],
+Cell[166638, 3543, 1910, 31, 348, "Text"],
 Cell[CellGroupData[{
-Cell[168540, 3577, 1866, 30, 93, "Input"],
-Cell[170409, 3609, 15701, 268, 419, "Output"]
+Cell[168573, 3578, 1866, 30, 93, "Input"],
+Cell[170442, 3610, 15701, 268, 419, "Output"]
 }, Open  ]],
-Cell[186125, 3880, 1649, 26, 311, "Text"]
+Cell[186158, 3881, 1649, 26, 311, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[187823, 3912, 179, 2, 67, "Subsection"],
-Cell[188005, 3916, 2896, 57, 237, "Text"],
-Cell[190904, 3975, 1705, 48, 163, "DisplayFormulaNumbered",
+Cell[187856, 3913, 179, 2, 67, "Subsection"],
+Cell[188038, 3917, 2896, 57, 237, "Text"],
+Cell[190937, 3976, 1705, 48, 163, "DisplayFormulaNumbered",
  CellTags->"eq:1norm_svm"],
-Cell[192612, 4025, 5058, 138, 458, "Text"],
+Cell[192645, 4026, 5058, 138, 458, "Text"],
 Cell[CellGroupData[{
-Cell[197695, 4167, 173, 5, 50, "Subsubsection"],
-Cell[197871, 4174, 1631, 26, 126, "Text"],
-Cell[199505, 4202, 3538, 95, 578, "Code",
+Cell[197728, 4168, 173, 5, 50, "Subsubsection"],
+Cell[197904, 4175, 1631, 26, 126, "Text"],
+Cell[199538, 4203, 3538, 95, 578, "Code",
  Evaluatable->False],
-Cell[203046, 4299, 1270, 20, 163, "Text"],
+Cell[203079, 4300, 1270, 20, 163, "Text"],
 Cell[CellGroupData[{
-Cell[204341, 4323, 356, 6, 60, "Input",
+Cell[204374, 4324, 356, 6, 60, "Input",
  InitializationCell->True],
-Cell[204700, 4331, 4286, 86, 435, "Output"]
+Cell[204733, 4332, 4286, 86, 435, "Output"]
 }, Open  ]],
-Cell[209001, 4420, 1118, 26, 274, "Text"],
+Cell[209034, 4421, 1118, 26, 274, "Text"],
 Cell[CellGroupData[{
-Cell[210144, 4450, 3271, 52, 96, "Input"],
-Cell[213418, 4504, 2854, 53, 529, "Output"]
+Cell[210177, 4451, 3271, 52, 96, "Input"],
+Cell[213451, 4505, 2854, 53, 393, "Output"]
 }, Open  ]],
-Cell[216287, 4560, 848, 16, 163, "Text"]
+Cell[216320, 4561, 848, 16, 163, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[217184, 4582, 207, 3, 67, "Subsection",
+Cell[217217, 4583, 207, 3, 67, "Subsection",
  CellTags->"subsec:hinge_loss"],
-Cell[217394, 4587, 1265, 28, 89, "Text"],
+Cell[217427, 4588, 1265, 28, 89, "Text"],
 Cell[CellGroupData[{
-Cell[218684, 4619, 879, 26, 52, "Item"],
-Cell[219566, 4647, 1249, 42, 52, "Item"]
+Cell[218717, 4620, 879, 26, 52, "Item"],
+Cell[219599, 4648, 1249, 42, 52, "Item"]
 }, Open  ]],
-Cell[220830, 4692, 669, 19, 52, "Text"],
-Cell[221502, 4713, 548, 17, 41, "DisplayFormula"],
-Cell[222053, 4732, 1302, 35, 91, "Text"],
-Cell[223358, 4769, 944, 31, 84, "DisplayFormulaNumbered"],
-Cell[224305, 4802, 3965, 115, 259, "Text"],
-Cell[228273, 4919, 489, 15, 41, "DisplayFormulaNumbered"],
-Cell[228765, 4936, 632, 11, 89, "Text"],
+Cell[220863, 4693, 669, 19, 52, "Text"],
+Cell[221535, 4714, 548, 17, 41, "DisplayFormula"],
+Cell[222086, 4733, 1302, 35, 91, "Text"],
+Cell[223391, 4770, 944, 31, 84, "DisplayFormulaNumbered"],
+Cell[224338, 4803, 3965, 115, 259, "Text"],
+Cell[228306, 4920, 489, 15, 41, "DisplayFormulaNumbered"],
+Cell[228798, 4937, 632, 11, 89, "Text"],
 Cell[CellGroupData[{
-Cell[229422, 4951, 2162, 55, 19, "Input",
+Cell[229455, 4952, 2162, 55, 19, "Input",
  CellOpen->False],
-Cell[231587, 5008, 6766, 135, 519, "Output"]
+Cell[231620, 5009, 6766, 135, 519, "Output"]
 }, Open  ]],
-Cell[238368, 5146, 1118, 17, 126, "Text"],
+Cell[238401, 5147, 1118, 17, 126, "Text"],
 Cell[CellGroupData[{
-Cell[239511, 5167, 641, 17, 52, "Item"],
-Cell[240155, 5186, 1009, 28, 54, "Item"]
+Cell[239544, 5168, 641, 17, 52, "Item"],
+Cell[240188, 5187, 1009, 28, 54, "Item"]
 }, Open  ]],
-Cell[241179, 5217, 16, 0, 52, "Text"],
+Cell[241212, 5218, 16, 0, 52, "Text"],
 Cell[CellGroupData[{
-Cell[241220, 5221, 173, 5, 50, "Subsubsection"],
-Cell[241396, 5228, 210, 5, 89, "Text"],
-Cell[241609, 5235, 3228, 91, 541, "Code",
+Cell[241253, 5222, 173, 5, 50, "Subsubsection"],
+Cell[241429, 5229, 210, 5, 89, "Text"],
+Cell[241642, 5236, 3228, 91, 541, "Code",
  Evaluatable->False],
-Cell[244840, 5328, 225, 7, 126, "Text"],
+Cell[244873, 5329, 225, 7, 126, "Text"],
 Cell[CellGroupData[{
-Cell[245090, 5339, 199, 4, 60, "Input",
+Cell[245123, 5340, 199, 4, 60, "Input",
  InitializationCell->True],
-Cell[245292, 5345, 3366, 74, 435, "Output"]
+Cell[245325, 5346, 3366, 74, 435, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[248695, 5424, 3946, 61, 96, "Input"],
-Cell[252644, 5487, 2388, 46, 529, "Output"]
+Cell[248728, 5425, 3946, 61, 96, "Input"],
+Cell[252677, 5488, 2388, 46, 529, "Output"]
 }, Open  ]],
-Cell[255047, 5536, 384, 9, 163, "Text"]
+Cell[255080, 5537, 384, 9, 163, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[255480, 5551, 256, 3, 67, "Subsection"],
-Cell[255739, 5556, 1957, 44, 200, "Text"],
+Cell[255513, 5552, 256, 3, 67, "Subsection"],
+Cell[255772, 5557, 1957, 44, 200, "Text"],
 Cell[CellGroupData[{
-Cell[257721, 5604, 173, 5, 50, "Subsubsection"],
-Cell[257897, 5611, 686, 14, 52, "Text"],
-Cell[258586, 5627, 1033, 33, 84, "DisplayFormulaNumbered"],
-Cell[259622, 5662, 1189, 24, 126, "Text"],
-Cell[260814, 5688, 2770, 77, 467, "Code",
+Cell[257754, 5605, 173, 5, 50, "Subsubsection"],
+Cell[257930, 5612, 686, 14, 52, "Text"],
+Cell[258619, 5628, 1033, 33, 84, "DisplayFormulaNumbered"],
+Cell[259655, 5663, 1189, 24, 126, "Text"],
+Cell[260847, 5689, 2770, 77, 467, "Code",
  Evaluatable->False],
-Cell[263587, 5767, 333, 8, 126, "Text"],
+Cell[263620, 5768, 333, 8, 126, "Text"],
 Cell[CellGroupData[{
-Cell[263945, 5779, 202, 4, 60, "Input",
+Cell[263978, 5780, 202, 4, 60, "Input",
  InitializationCell->True],
-Cell[264150, 5785, 2828, 66, 435, "Output"]
+Cell[264183, 5786, 2828, 66, 435, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[267015, 5856, 1697, 30, 96, "Input"],
-Cell[268715, 5888, 2119, 43, 525, "Output"]
+Cell[267048, 5857, 1697, 30, 96, "Input"],
+Cell[268748, 5889, 2119, 43, 525, "Output"]
 }, Open  ]],
-Cell[270849, 5934, 1037, 18, 163, "Text"]
+Cell[270882, 5935, 1037, 18, 163, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[271947, 5959, 467, 10, 135, "Section",
+Cell[271980, 5960, 467, 10, 135, "Section",
  CellTags->"sec:svm"],
-Cell[272417, 5971, 1766, 33, 163, "Text"],
+Cell[272450, 5972, 1766, 33, 163, "Text"],
 Cell[CellGroupData[{
-Cell[274208, 6008, 114, 1, 67, "Subsection"],
-Cell[274325, 6011, 478, 6, 52, "Text"],
-Cell[274806, 6019, 1226, 38, 116, "DisplayFormulaNumbered",
+Cell[274241, 6009, 114, 1, 67, "Subsection"],
+Cell[274358, 6012, 478, 6, 52, "Text"],
+Cell[274839, 6020, 1226, 38, 116, "DisplayFormulaNumbered",
  CellTags->"primal_problem"],
-Cell[276035, 6059, 1565, 42, 128, "Text"],
-Cell[277603, 6103, 1830, 62, 84, "DisplayFormulaNumbered"],
-Cell[279436, 6167, 429, 10, 52, "Text"],
-Cell[279868, 6179, 844, 26, 79, "DisplayFormulaNumbered",
+Cell[276068, 6060, 1565, 42, 128, "Text"],
+Cell[277636, 6104, 1830, 62, 84, "DisplayFormulaNumbered"],
+Cell[279469, 6168, 429, 10, 52, "Text"],
+Cell[279901, 6180, 844, 26, 79, "DisplayFormulaNumbered",
  CellTags->"eq:dual_problem"],
-Cell[280715, 6207, 1126, 33, 89, "Text"],
-Cell[281844, 6242, 2988, 91, 131, "Text"],
-Cell[284835, 6335, 2451, 63, 96, "Text"],
-Cell[287289, 6400, 2242, 75, 236, "DisplayFormulaNumbered",
+Cell[280748, 6208, 1126, 33, 89, "Text"],
+Cell[281877, 6243, 2988, 91, 131, "Text"],
+Cell[284868, 6336, 2451, 63, 96, "Text"],
+Cell[287322, 6401, 2242, 75, 236, "DisplayFormulaNumbered",
  CellTags->"eq:kkt"],
-Cell[289534, 6477, 2493, 53, 165, "Text"]
+Cell[289567, 6478, 2493, 53, 165, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[292064, 6535, 111, 1, 67, "Subsection"],
-Cell[292178, 6538, 415, 9, 89, "Text"],
+Cell[292097, 6536, 111, 1, 67, "Subsection"],
+Cell[292211, 6539, 415, 9, 89, "Text"],
 Cell[CellGroupData[{
-Cell[292618, 6551, 161, 2, 50, "Subsubsection"],
-Cell[292782, 6555, 327, 8, 52, "Text"],
-Cell[293112, 6565, 1491, 54, 84, "DisplayFormula",
+Cell[292651, 6552, 161, 2, 50, "Subsubsection"],
+Cell[292815, 6556, 327, 8, 52, "Text"],
+Cell[293145, 6566, 1491, 54, 84, "DisplayFormula",
  CellTags->"eq:hard_margin_svm_L"],
-Cell[294606, 6621, 1445, 48, 109, "Text"],
-Cell[296054, 6671, 2340, 79, 196, "DisplayFormula"],
-Cell[298397, 6752, 266, 3, 52, "Text"],
-Cell[298666, 6757, 878, 25, 172, "DisplayFormulaNumbered",
+Cell[294639, 6622, 1445, 48, 109, "Text"],
+Cell[296087, 6672, 2340, 79, 196, "DisplayFormula"],
+Cell[298430, 6753, 266, 3, 52, "Text"],
+Cell[298699, 6758, 878, 25, 172, "DisplayFormulaNumbered",
  CellTags->"eq:hard_margin_svm_w"],
-Cell[299547, 6784, 416, 11, 52, "Text"],
-Cell[299966, 6797, 3267, 111, 297, "DisplayFormula"],
-Cell[303236, 6910, 3167, 88, 166, "Text"],
-Cell[306406, 7000, 4458, 135, 408, "DisplayFormula"],
-Cell[310867, 7137, 1210, 24, 89, "Text"],
-Cell[312080, 7163, 1511, 54, 136, "DisplayFormulaNumbered",
+Cell[299580, 6785, 416, 11, 52, "Text"],
+Cell[299999, 6798, 3267, 111, 297, "DisplayFormula"],
+Cell[303269, 6911, 3167, 88, 166, "Text"],
+Cell[306439, 7001, 4458, 135, 408, "DisplayFormula"],
+Cell[310900, 7138, 1210, 24, 89, "Text"],
+Cell[312113, 7164, 1511, 54, 136, "DisplayFormulaNumbered",
  CellTags->"eq:hard_margin_svm_Dual"],
-Cell[313594, 7219, 3887, 71, 143, "Text"],
-Cell[317484, 7292, 1479, 54, 87, "DisplayFormulaNumbered"],
-Cell[318966, 7348, 4382, 98, 128, "Text"],
-Cell[323351, 7448, 2964, 90, 203, "DisplayFormula"]
+Cell[313627, 7220, 3887, 71, 143, "Text"],
+Cell[317517, 7293, 1479, 54, 87, "DisplayFormulaNumbered"],
+Cell[318999, 7349, 4382, 98, 128, "Text"],
+Cell[323384, 7449, 2964, 90, 203, "DisplayFormula"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[326352, 7543, 238, 3, 50, "Subsubsection"],
-Cell[326593, 7548, 5101, 120, 274, "Text"],
-Cell[331697, 7670, 185, 5, 59, "DisplayFormula"],
-Cell[331885, 7677, 1039, 18, 200, "Text"]
+Cell[326385, 7544, 238, 3, 50, "Subsubsection"],
+Cell[326626, 7549, 5101, 120, 274, "Text"],
+Cell[331730, 7671, 185, 5, 59, "DisplayFormula"],
+Cell[331918, 7678, 1039, 18, 200, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[332961, 7700, 177, 5, 50, "Subsubsection"],
-Cell[333141, 7707, 1124, 26, 129, "Text"],
-Cell[334268, 7735, 4252, 116, 689, "Code",
+Cell[332994, 7701, 177, 5, 50, "Subsubsection"],
+Cell[333174, 7708, 1124, 26, 129, "Text"],
+Cell[334301, 7736, 4252, 116, 689, "Code",
  Evaluatable->False],
-Cell[338523, 7853, 547, 12, 126, "Text"],
+Cell[338556, 7854, 547, 12, 126, "Text"],
 Cell[CellGroupData[{
-Cell[339095, 7869, 85, 2, 60, "Input",
+Cell[339128, 7870, 85, 2, 60, "Input",
  InitializationCell->True],
-Cell[339183, 7873, 3509, 76, 435, "Output"]
+Cell[339216, 7874, 3509, 76, 435, "Output"]
 }, Open  ]],
-Cell[342707, 7952, 1212, 23, 274, "Text"],
+Cell[342740, 7953, 1212, 23, 274, "Text"],
 Cell[CellGroupData[{
-Cell[343944, 7979, 3800, 56, 93, "Input"],
-Cell[347747, 8037, 72341, 1210, 419, "Output"]
+Cell[343977, 7980, 3800, 56, 93, "Input"],
+Cell[347780, 8038, 72341, 1210, 419, "Output"]
 }, Open  ]],
-Cell[420103, 9250, 808, 15, 200, "Text"]
+Cell[420136, 9251, 808, 15, 200, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[420948, 9270, 107, 1, 50, "Subsubsection"],
-Cell[421058, 9273, 458, 10, 89, "Text"],
-Cell[421519, 9285, 2038, 72, 84, "DisplayFormulaNumbered",
+Cell[420981, 9271, 107, 1, 50, "Subsubsection"],
+Cell[421091, 9274, 458, 10, 89, "Text"],
+Cell[421552, 9286, 2038, 72, 84, "DisplayFormulaNumbered",
  CellTags->"eq:soft_margin_svm_L"],
-Cell[423560, 9359, 213, 4, 52, "Text"],
-Cell[423776, 9365, 4002, 136, 332, "DisplayFormula"],
-Cell[427781, 9503, 316, 4, 52, "Text"],
-Cell[428100, 9509, 1194, 32, 214, "DisplayFormulaNumbered",
+Cell[423593, 9360, 213, 4, 52, "Text"],
+Cell[423809, 9366, 4002, 136, 332, "DisplayFormula"],
+Cell[427814, 9504, 316, 4, 52, "Text"],
+Cell[428133, 9510, 1194, 32, 214, "DisplayFormulaNumbered",
  CellTags->"eq:soft_margin_svm_w"],
-Cell[429297, 9543, 1240, 37, 89, "Text"],
-Cell[430540, 9582, 3955, 131, 297, "DisplayFormula"],
-Cell[434498, 9715, 2020, 70, 129, "Text"],
-Cell[436521, 9787, 1391, 45, 105, "DisplayFormula"],
-Cell[437915, 9834, 709, 22, 106, "Text"],
-Cell[438627, 9858, 1376, 47, 136, "DisplayFormulaNumbered",
+Cell[429330, 9544, 1240, 37, 89, "Text"],
+Cell[430573, 9583, 3955, 131, 297, "DisplayFormula"],
+Cell[434531, 9716, 2020, 70, 129, "Text"],
+Cell[436554, 9788, 1391, 45, 105, "DisplayFormula"],
+Cell[437948, 9835, 709, 22, 106, "Text"],
+Cell[438660, 9859, 1376, 47, 136, "DisplayFormulaNumbered",
  CellTags->"eq:soft_margin_svm_Dual"],
-Cell[440006, 9907, 8510, 212, 515, "Text"],
-Cell[448519, 10121, 2391, 84, 170, "DisplayFormula"],
-Cell[450913, 10207, 3302, 45, 52, "Text"]
+Cell[440039, 9908, 8510, 212, 515, "Text"],
+Cell[448552, 10122, 2391, 84, 170, "DisplayFormula"],
+Cell[450946, 10208, 3302, 45, 52, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[454252, 10257, 177, 5, 50, "Subsubsection"],
-Cell[454432, 10264, 3888, 65, 129, "Text"],
-Cell[458323, 10331, 5088, 141, 763, "Code",
+Cell[454285, 10258, 177, 5, 50, "Subsubsection"],
+Cell[454465, 10265, 3888, 65, 129, "Text"],
+Cell[458356, 10332, 5088, 141, 763, "Code",
  Evaluatable->False],
-Cell[463414, 10474, 452, 8, 163, "Text"],
+Cell[463447, 10475, 452, 8, 163, "Text"],
 Cell[CellGroupData[{
-Cell[463891, 10486, 85, 2, 60, "Input",
+Cell[463924, 10487, 85, 2, 60, "Input",
  InitializationCell->True],
-Cell[463979, 10490, 3409, 74, 435, "Output"]
+Cell[464012, 10491, 3409, 74, 435, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[467425, 10569, 4041, 63, 96, "Input"],
-Cell[471469, 10634, 2236, 45, 529, "Output"]
+Cell[467458, 10570, 4041, 63, 96, "Input"],
+Cell[471502, 10635, 2236, 45, 529, "Output"]
 }, Open  ]],
-Cell[473720, 10682, 482, 11, 163, "Text"]
+Cell[473753, 10683, 482, 11, 163, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[474239, 10698, 162, 2, 50, "Subsubsection"],
-Cell[474404, 10702, 847, 16, 52, "Text"],
-Cell[475254, 10720, 1696, 53, 126, "DisplayFormula"],
-Cell[476953, 10775, 1166, 22, 126, "Text"],
-Cell[478122, 10799, 1826, 63, 84, "DisplayFormula"],
-Cell[479951, 10864, 645, 8, 52, "Text"],
-Cell[480599, 10874, 3259, 117, 258, "DisplayFormula"],
-Cell[483861, 10993, 222, 3, 52, "Text"],
-Cell[484086, 10998, 971, 30, 229, "DisplayFormulaNumbered",
+Cell[474272, 10699, 162, 2, 50, "Subsubsection"],
+Cell[474437, 10703, 847, 16, 52, "Text"],
+Cell[475287, 10721, 1696, 53, 126, "DisplayFormula"],
+Cell[476986, 10776, 1166, 22, 126, "Text"],
+Cell[478155, 10800, 1826, 63, 84, "DisplayFormula"],
+Cell[479984, 10865, 645, 8, 52, "Text"],
+Cell[480632, 10875, 3259, 117, 258, "DisplayFormula"],
+Cell[483894, 10994, 222, 3, 52, "Text"],
+Cell[484119, 10999, 971, 30, 229, "DisplayFormulaNumbered",
  CellTags->"eq:svm_w"],
-Cell[485060, 11030, 1361, 28, 89, "Text"],
-Cell[486424, 11060, 4042, 136, 297, "DisplayFormula"],
-Cell[490469, 11198, 3805, 114, 155, "Text"],
-Cell[494277, 11314, 5154, 158, 408, "DisplayFormula"],
-Cell[499434, 11474, 1210, 24, 89, "Text"],
-Cell[500647, 11500, 1336, 48, 136, "DisplayFormulaNumbered",
+Cell[485093, 11031, 1361, 28, 89, "Text"],
+Cell[486457, 11061, 4042, 136, 297, "DisplayFormula"],
+Cell[490502, 11199, 3805, 114, 155, "Text"],
+Cell[494310, 11315, 5154, 158, 408, "DisplayFormula"],
+Cell[499467, 11475, 1210, 24, 89, "Text"],
+Cell[500680, 11501, 1336, 48, 136, "DisplayFormulaNumbered",
  CellTags->"eq:2norm_svm_Dual"],
-Cell[501986, 11550, 7590, 200, 430, "Text"],
-Cell[509579, 11752, 2635, 83, 203, "DisplayFormula"],
-Cell[512217, 11837, 3455, 63, 89, "Text"]
+Cell[502019, 11551, 7590, 200, 430, "Text"],
+Cell[509612, 11753, 2635, 83, 203, "DisplayFormula"],
+Cell[512250, 11838, 3455, 63, 89, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[515709, 11905, 177, 5, 50, "Subsubsection"],
-Cell[515889, 11912, 3120, 47, 126, "Text"],
-Cell[519012, 11961, 2042, 58, 282, "Code",
+Cell[515742, 11906, 177, 5, 50, "Subsubsection"],
+Cell[515922, 11913, 3120, 47, 126, "Text"],
+Cell[519045, 11962, 2042, 58, 282, "Code",
  Evaluatable->False],
-Cell[521057, 12021, 215, 6, 126, "Text"],
+Cell[521090, 12022, 215, 6, 126, "Text"],
 Cell[CellGroupData[{
-Cell[521297, 12031, 200, 4, 60, "Input",
+Cell[521330, 12032, 200, 4, 60, "Input",
  InitializationCell->True],
-Cell[521500, 12037, 3736, 79, 435, "Output"]
+Cell[521533, 12038, 3736, 79, 435, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[525273, 12121, 4631, 71, 96, "Input"],
-Cell[529907, 12194, 1871, 39, 529, "Output"]
+Cell[525306, 12122, 4631, 71, 96, "Input"],
+Cell[529940, 12195, 1871, 39, 529, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[531851, 12241, 582, 12, 135, "Section",
+Cell[531884, 12242, 582, 12, 135, "Section",
  CellTags->"sec:kernel_svm"],
 Cell[CellGroupData[{
-Cell[532458, 12257, 104, 1, 67, "Subsection"],
-Cell[532565, 12260, 2703, 48, 200, "Text"],
-Cell[535271, 12310, 183468, 3014, 499, 97512, 1603, "CachedBoxData", \
+Cell[532491, 12258, 104, 1, 67, "Subsection"],
+Cell[532598, 12261, 2703, 48, 200, "Text"],
+Cell[535304, 12311, 183468, 3014, 499, 97512, 1603, "CachedBoxData", \
 "BoxData", "Output"],
-Cell[718742, 15326, 2900, 52, 163, "Text"],
+Cell[718775, 15327, 2900, 52, 163, "Text"],
 Cell[CellGroupData[{
-Cell[721667, 15382, 84, 1, 50, "Subsubsection"],
-Cell[721754, 15385, 1677, 35, 52, "Text"],
-Cell[723434, 15422, 535, 18, 41, "DisplayFormula"],
-Cell[723972, 15442, 3874, 93, 348, "Text"]
+Cell[721700, 15383, 84, 1, 50, "Subsubsection"],
+Cell[721787, 15386, 1677, 35, 52, "Text"],
+Cell[723467, 15423, 535, 18, 41, "DisplayFormula"],
+Cell[724005, 15443, 3874, 93, 348, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[727883, 15540, 106, 1, 50, "Subsubsection"],
-Cell[727992, 15543, 1676, 60, 92, "Text"],
-Cell[729671, 15605, 1974, 37, 79, "DisplayFormula"],
-Cell[731648, 15644, 1917, 35, 163, "Text"]
+Cell[727916, 15541, 106, 1, 50, "Subsubsection"],
+Cell[728025, 15544, 1676, 60, 92, "Text"],
+Cell[729704, 15606, 1974, 37, 79, "DisplayFormula"],
+Cell[731681, 15645, 1917, 35, 163, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[733602, 15684, 223, 3, 50, "Subsubsection"],
-Cell[733828, 15689, 2179, 45, 89, "Text"]
+Cell[733635, 15685, 223, 3, 50, "Subsubsection"],
+Cell[733861, 15690, 2179, 45, 89, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[736044, 15739, 215, 3, 50, "Subsubsection"],
-Cell[736262, 15744, 1589, 56, 89, "Text"],
-Cell[737854, 15802, 2927, 117, 227, "DisplayFormula"],
-Cell[740784, 15921, 757, 17, 52, "Text"],
-Cell[741544, 15940, 1663, 63, 136, "DisplayFormula"],
-Cell[743210, 16005, 659, 16, 89, "Text"]
+Cell[736077, 15740, 215, 3, 50, "Subsubsection"],
+Cell[736295, 15745, 1589, 56, 89, "Text"],
+Cell[737887, 15803, 2927, 117, 227, "DisplayFormula"],
+Cell[740817, 15922, 757, 17, 52, "Text"],
+Cell[741577, 15941, 1663, 63, 136, "DisplayFormula"],
+Cell[743243, 16006, 659, 16, 89, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[743906, 16026, 173, 5, 50, "Subsubsection"],
-Cell[744082, 16033, 509, 9, 89, "Text"],
-Cell[744594, 16044, 2086, 61, 504, "Code",
+Cell[743939, 16027, 173, 5, 50, "Subsubsection"],
+Cell[744115, 16034, 509, 9, 89, "Text"],
+Cell[744627, 16045, 2086, 61, 504, "Code",
  Evaluatable->False],
-Cell[746683, 16107, 16, 0, 52, "Text"]
+Cell[746716, 16108, 16, 0, 52, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[746748, 16113, 172, 2, 67, "Subsection"],
-Cell[746923, 16117, 2131, 62, 240, "Text"],
-Cell[749057, 16181, 1426, 50, 87, "DisplayFormula"],
-Cell[750486, 16233, 400, 8, 89, "Text"],
+Cell[746781, 16114, 172, 2, 67, "Subsection"],
+Cell[746956, 16118, 2131, 62, 240, "Text"],
+Cell[749090, 16182, 1426, 50, 87, "DisplayFormula"],
+Cell[750519, 16234, 400, 8, 89, "Text"],
 Cell[CellGroupData[{
-Cell[750911, 16245, 175, 5, 50, "Subsubsection"],
-Cell[751089, 16252, 541, 11, 89, "Text"],
-Cell[751633, 16265, 267, 4, 60, "Input"],
+Cell[750944, 16246, 175, 5, 50, "Subsubsection"],
+Cell[751122, 16253, 541, 11, 89, "Text"],
+Cell[751666, 16266, 267, 4, 60, "Input"],
 Cell[CellGroupData[{
-Cell[751925, 16273, 2378, 43, 131, "Input"],
-Cell[754306, 16318, 2765, 52, 555, "Output"]
+Cell[751958, 16274, 2378, 43, 131, "Input"],
+Cell[754339, 16319, 2765, 52, 555, "Output"]
 }, Open  ]],
-Cell[757086, 16373, 196, 6, 126, "Text"],
+Cell[757119, 16374, 196, 6, 126, "Text"],
 Cell[CellGroupData[{
-Cell[757307, 16383, 124, 2, 60, "Input"],
-Cell[757434, 16387, 1768, 51, 435, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[759239, 16443, 1119, 23, 131, "Input"],
-Cell[760361, 16468, 2245, 45, 525, "Output"]
-}, Open  ]],
-Cell[762621, 16516, 679, 13, 200, "Text"],
-Cell[CellGroupData[{
-Cell[763325, 16533, 994, 21, 131, "Input"],
-Cell[764322, 16556, 2022, 42, 531, "Output"]
+Cell[757340, 16384, 124, 2, 60, "Input"],
+Cell[757467, 16388, 1768, 51, 435, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[766381, 16603, 679, 13, 93, "Input"],
-Cell[767063, 16618, 73180, 1223, 430, "Output"]
+Cell[759272, 16444, 1119, 23, 131, "Input"],
+Cell[760394, 16469, 2245, 45, 525, "Output"]
 }, Open  ]],
-Cell[840258, 17844, 16, 0, 52, "Text"]
+Cell[762654, 16517, 679, 13, 200, "Text"],
+Cell[CellGroupData[{
+Cell[763358, 16534, 994, 21, 131, "Input"],
+Cell[764355, 16557, 2022, 42, 531, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[766414, 16604, 679, 13, 93, "Input"],
+Cell[767096, 16619, 73180, 1223, 430, "Output"]
+}, Open  ]],
+Cell[840291, 17845, 16, 0, 52, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[840335, 17851, 509, 11, 135, "Section",
+Cell[840368, 17852, 509, 11, 135, "Section",
  CellTags->"conclusions"],
-Cell[840847, 17864, 2189, 41, 274, "Text"]
+Cell[840880, 17865, 2189, 41, 274, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[843073, 17910, 97, 1, 135, "Section"],
-Cell[843173, 17913, 347, 8, 39, "Reference",
+Cell[843106, 17911, 97, 1, 135, "Section"],
+Cell[843206, 17914, 347, 8, 39, "Reference",
  CellTags->"00004F53"]
 }, Open  ]]
 }, Open  ]]

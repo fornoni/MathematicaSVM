@@ -1,23 +1,23 @@
 (* ::Package:: *)
 
 (*
- * MathSVM - A hands-on introduction to Support Vector Machines using Mathematica (c)
+ * MathematicaSVM - A hands-on introduction to Support Vector Machines using Mathematica (c)
  *
  * Copyright (c) 2015 Marco Fornoni <marco.fornoni@alumni.epfl.ch>
  *
- * This file is part of the MathSVM Software.
+ * This file is part of the MathematicaSVM Software.
  *
- * MathSVM is free software: you can redistribute it and/or modify
+ * MathematicaSVM is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
  * published by the Free Software Foundation.
  *
- * MathSVM is distributed in the hope that it will be useful,
+ * MathematicaSVM is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MathSVM. If not, see <http://www.gnu.org/licenses/>.
+ * along with MathematicaSVM. If not, see <http://www.gnu.org/licenses/>.
  *
  *  Created on: Feb 03, 2014
  *      Author: Marco Fornoni
