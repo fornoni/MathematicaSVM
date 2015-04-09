@@ -22,9 +22,9 @@ along with MathematicaSVM. If not, see <http://www.gnu.org/licenses/>.
 
 About
 -----
-One of the most successful machine learning tools that are widely used 
-to solve classification and regression problems are 
-Support Vector Machines (SVM) [1].
+One of the most successful machine learning tools used to solve 
+classification and regression problems are Support Vector Machines (SVM) 
+[1].
 
 The goal of this notebook is to present the very basic theory of linear 
 classifiers, max-margin classifiers and Support Vector Machines and to 
