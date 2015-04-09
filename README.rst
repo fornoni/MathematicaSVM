@@ -58,5 +58,6 @@ It can thus be considered a hands-on introduction to the topic.
 
 Usage
 -----
-Open MathSVM.nb with Mathematica (c) and follow the instructions. You 
-can also simply read the pdf tutorial.
+Open MathSVM.nb with Mathematica (c) and follow the instructions. The 
+package includes also a short presentation notebook wrapping up the main 
+contents.
