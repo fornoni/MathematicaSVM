@@ -1,7 +1,7 @@
 (* ::Package:: *)
 
 (*
- * MathSVM - An SVM implementation using Mathematica (c)
+ * MathSVM - A hands-on introduction to Support Vector Machines using Mathematica (c)
  *
  * Copyright (c) 2014 Marco Fornoni <marco.fornoni@alumni.epfl.ch>
  *

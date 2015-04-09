@@ -1,4 +1,4 @@
-MathSVM - An SVM implementation using Mathematica (c)
+MathSVM - A hands-on introduction to Support Vector Machines using Mathematica (c)
 ==========================================
 
 |
@@ -58,4 +58,5 @@ It can thus be considered a hands-on introduction to the topic.
 
 Usage
 -----
-Open MathSVM.nb with Mathematica (c) and follow the instructions.
+Open MathSVM.nb with Mathematica (c) and follow the instructions. You 
+can also simply read the pdf tutorial.
