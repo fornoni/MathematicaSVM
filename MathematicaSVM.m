@@ -24,6 +24,7 @@
 *)
 
 BeginPackage ["SVM`",{"Global`"}];
+
 Unprotect[plotSize,loadData,createData,getTrTeData,hinge,err,
 linearKernel,gaussianKernel,computeGaussianKernel,estimateSigmaSQ,computeDist,
 trainMaxMargin,trainSoftMargin,trainSoftMarginHinge,trainZeroOneError,
