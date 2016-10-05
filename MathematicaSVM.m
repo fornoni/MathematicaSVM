@@ -178,12 +178,8 @@ linearKernel[fTr_, fTe_] :=
 
 gaussianKernel[input_] :=
 	Module[ {sigmaSQ, myGaussianKern},
-		sigmaSQ = If[ Length[input] > 1,
-					estimateSigmaSQ[input],
-					input
-				];
-		myGaussianKern[x_, y_] :=
-			computeGaussianKernel[x, y, sigmaSQ];
+		sigmaSQ = If[ Length[input] > 1, estimateSigmaSQ[input], input];
+		myGaussianKern[x_, y_] := computeGaussianKernel[x, y, sigmaSQ];
 		myGaussianKern
 	];
 
@@ -266,12 +262,9 @@ trainSoftMarginHingeWbias[feats_List, labels_List, lambda_,function_] :=
 		biasFeats = Append[#,1]& /@ feats;
 		{nTr, d} = Dimensions[biasFeats];
 		w = Table[Subscript[v, i], {i, 1, d}];
-		regularizer[u_] :=
-			lambda/2 Norm[u]^2;
-		loss[x_, y_, u_] :=
-			Total[hinge @@@ (y x.u)]/nTr;
-		obj[x_, y_, u_] :=
-			regularizer[u] + loss[x, y, u];
+		regularizer[u_] := lambda/2 Norm[u]^2;
+		loss[x_, y_, u_] := Total[hinge @@@ (y x.u)]/nTr;
+		obj[x_, y_, u_] := regularizer[u] + loss[x, y, u];
 		sol = function[obj[biasFeats, labels, w], w] // Quiet;
 		model = (w /. sol[[2]]);
 		margin = (Min[(labels (feats.model))])/Norm[model];
@@ -283,12 +276,9 @@ trainZeroOneErrorWbias[feats_List, labels_List, lambda_] :=
 		biasFeats = Append[#, 1]& /@ feats;
 		{nTr, d} = Dimensions[biasFeats];
 		w = Table[Subscript[v, i], {i, 1, d}];
-		regularizer[u_] :=
-			lambda/2 Norm[u]^2;
-		loss[x_, y_, u_] :=
-			Total[err @@@ (y x.u)]/nTr;
-		obj[x_, y_, u_] :=
-			regularizer[u] + loss[x, y, u];
+		regularizer[u_] := lambda/2 Norm[u]^2;
+		loss[x_, y_, u_] := Total[err @@@ (y x.u)]/nTr;
+		obj[x_, y_, u_] := regularizer[u] + loss[x, y, u];
 		sol = NMinimize[obj[biasFeats, labels, w], w] // Quiet;
 		model = (w /. sol[[2]]);
 		margin = (Min[(labels (feats.model))])/Norm[model];
@@ -414,14 +404,8 @@ plotKernelResults[model_, fTr_, yTr_, fTe_, yTe_, kernelFunc_, trErr_, teErr_, m
 		negTe=Transpose[MatrixForm[Position[yTe, -1.]]][[All, 1]][[1]];*)
 		fnSV = fTr[[negSV]];
 		fpSV = fTr[[posSV]];
-		fnSV = If[ Length[fnSV] == 0,
-					{{Null, Null}},
-					fnSV
-				];
-		fpSV = If[ Length[fpSV] == 0,
-					{{Null, Null}},
-					fpSV
-				];
+		fnSV = If[ Length[fnSV] == 0, {{Null, Null}}, fnSV];
+		fpSV = If[ Length[fpSV] == 0, {{Null, Null}}, fpSV];
 		a = ListPlot[{fnSV, fpSV}, PlotRange -> Full, PlotMarkers -> {Automatic, 24}];
 		b = ListPlot[{fTr[[negAll]], fTr[[posAll]]}, PlotRange -> Full];
 		(*b=Labeled[ListPlot[{fTr[[negAll]], fTr[[posAll]]}, PlotRange -> Full], StringJoin["Classification results. #SV", ToString[Length[model[[1]]]]]];*)
