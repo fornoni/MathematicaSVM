@@ -42,7 +42,22 @@ This project can thus be considered a hands-on introduction to the topic.
 
 Usage
 -----
-Open MathematicaSVM.nb with Mathematica (c) and follow the instructions. 
-The main algorithms and implementations are also synthetically presented 
-in Presentation.nb. A pdf version of the notebook is also available for
-previewing the material.
+Open MathematicaSVM.nb from the Documentation directory with Mathematica(c)
+and follow the instructions. The main algorithms and implementations are
+also synthetically presented in Presentation.nb. A pdf version of the notebook is
+also available for previewing the material.
+
+To use MathematicaSVM package in your own code, append the path to the
+package to $Path, and then load the package:
+
+::
+
+    In[1]:= AppendTo[$Path, "path/to/MathematicaSVM"];
+    In[2]:= << MathematicaSVM`
+
+This will show available symbols:
+
+::
+
+    In[3]:= ?SVM`*
+
